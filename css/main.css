@@ -98,7 +98,31 @@ textarea {
    ========================================================================== */
 
 
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 300px;
+  background: bisque;
+  padding: 20px;
+}
+
+input[type='text'], textarea {
+  max-width: 285px;
+}
+
+.product {
+  max-width: 200px;
+  word-wrap: break-word;
+  padding: 10px;
+  border: 1px solid black;
+}
 
 
 
