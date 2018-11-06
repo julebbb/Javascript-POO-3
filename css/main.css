@@ -98,7 +98,47 @@ textarea {
    ========================================================================== */
 
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
 
+form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  max-width: 350px;
+  padding: 20px;
+}
+
+.formDiv h1 {
+    text-align: center;
+    background: darkseagreen;
+    margin: 0;
+    padding: 12px;
+}
+
+.formDiv {
+    border : 1px solid rgb(136, 158, 130);
+    border-radius: 5px;
+}
+
+input[type='text'], textarea {
+  max-width: 285px;
+}
+
+
+/* Product CSS */
+.product {
+  max-width: 200px;
+  word-wrap: break-word;
+  min-height: 300px;
+  min-width: 240px;
+  text-align: center;
+}
 
 
 
